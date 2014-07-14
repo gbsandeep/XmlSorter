@@ -1,5 +1,6 @@
 ﻿using SortXml.Log;
 using SortXml.Sort;
+using System;
 
 namespace SortXml {
     public class Program {
