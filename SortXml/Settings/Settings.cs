@@ -14,7 +14,7 @@ namespace SortXml.Settings {
         public string OutputFileName { get; set; }
 
         [Option('d', "depth", 
-            Required = false, HelpText = "Positive integer value to indicate the depth of the XML tree to be processed. Default is to parse the entire tree.")]
+            Required = false, HelpText = "Positive integer value to indicate the depth of the XML tree to be sorted. Default is to sort the entire tree.")]
         public uint Depth { get; set; }
 
         [Option('l', "log",
