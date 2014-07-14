@@ -39,30 +39,18 @@ namespace TestSortXml {
     }
 
     class LogStub : ILog {
-
         public void Warn(string message) {
-            throw new NotImplementedException();
         }
 
         public void Error(Exception ex) {
-            throw new NotImplementedException();
         }
 
         public void Info(string message) {
-            throw new NotImplementedException();
         }
 
         public void Log(string message) {
-            throw new NotImplementedException();
         }
 
-        public Level LogLevel {
-            get {
-                throw new NotImplementedException();
-            }
-            set {
-                throw new NotImplementedException();
-            }
-        }
+        public Level LogLevel {get; set;}
     }
 }
