@@ -7,7 +7,7 @@ Copyright c  2014
   -o, --outputfile    Required. Output file with sorted XML data.
 
   -d, --depth         Positive integer value to indicate the depth of the XML
-                      tree to be processed. Default is to parse the entire tree.
+                      tree to be sorted. Default is to sort the entire tree.
 
 
   -l, --log           Log level. Error = 0, Warning = 1, Info = 2, Log = 3.
