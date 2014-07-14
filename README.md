@@ -1,3 +1,4 @@
+```
 SortXml 1.0.0.0
 Copyright c  2014
 
@@ -16,19 +17,23 @@ Copyright c  2014
   --help              Display this help screen.
 
 ------------------------------------------------------------------------------------------------------------
+
 Sample Input File (input.xml): 
+
 <n0_0 a1="e" a0="c">
   <n0_2 a1="e" a0="f" />
   <n0_1 a1="e" a0="f" />
 </n0_0>
 
 
+
 Sample Output (output.xml):
+xml
 <n0_0 a0="c" a1="e">
   <n0_1 a0="f" a1="e" />
   <n0_2 a0="f" a1="e" />
 </n0_0>
 
-Sample Execution: (log all and sort only nodes upto 1st level)
 
+Sample Execution: (log all and sort only nodes upto 1st level)
 SortXml -i input.xml -o output.xml -d 1 -l 4
