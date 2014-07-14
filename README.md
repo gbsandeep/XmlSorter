@@ -17,16 +17,16 @@ Copyright c  2014
 
 ------------------------------------------------------------------------------------------------------------
 Sample Input File (input.xml): 
-<n0_0 a1=\"e\" a0=\"c\">
-  <n0_2 a1=\"e\" a0=\"f\" />
-  <n0_1 a1=\"e\" a0=\"f\" />
+<n0_0 a1="e" a0="c">
+  <n0_2 a1="e" a0="f" />
+  <n0_1 a1="e" a0="f" />
 </n0_0>
 
 
 Sample Output (output.xml):
-<n0_0 a0=\"c\" a1=\"e\">
-  <n0_1 a0=\"f\" a1=\"e\" />
-  <n0_2 a0=\"f\" a1=\"e\" />
+<n0_0 a0="c" a1="e">
+  <n0_1 a0="f" a1="e" />
+  <n0_2 a0="f" a1="e" />
 </n0_0>
 
 Sample Execution: (log all and sort only nodes upto 1st level)
