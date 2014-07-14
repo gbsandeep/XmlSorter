@@ -15,9 +15,8 @@
                       Default is to log error and warnings.
 
   --help              Display this help screen.
-
-------------------------------------------------------------------------------------------------------------
 ```
+
 Sample Input File (input.xml): 
 ```
 <n0_0 a1="e" a0="c">
